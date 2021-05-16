@@ -7,7 +7,7 @@ import Header from '../pages/Header/index';
 const Routes: React.FC = () => (
   <Switch>
     <Route path="/" exact component={Dashboard} />
-    <Route path="/repository" component={Repository} />
+    <Route path="/repositories/:repository+" component={Repository} />
     <Route path="/header" component={Header} />
   </Switch>
 );
